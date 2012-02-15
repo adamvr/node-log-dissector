@@ -2,7 +2,7 @@
   "author": "Adam Rudd <adam.rudd@uqconnect.edu.au>",
   "name": "log-dissector",
   "description": "A toolkit for dissecting log files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/adamvr/node-log-dissector.git"
