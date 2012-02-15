@@ -16,9 +16,6 @@ function exec(dissector) {
       , ret = {};
 
     if (!matches) return null;
-
-    console.dir(matches);
-
     for (var k in map) {
       var v = map[k];
       ret[v] = matches[k];
