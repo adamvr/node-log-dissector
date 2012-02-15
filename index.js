@@ -31,7 +31,7 @@ function exec(dissector) {
 
 for (var i = 0; i < files.length; i++) {
   var module = require(path.join(__dirname, 'dissectors', files[i]));
-  if (!module) continue;
+  if (!module || !module.regex || !module.map || !module.type) continue;
   module.dissect = exec(module);
   dissectors[module['type']] = module;
 };
