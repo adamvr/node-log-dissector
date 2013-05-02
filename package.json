@@ -2,16 +2,18 @@
   "author": "Adam Rudd <adam.rudd@uqconnect.edu.au>",
   "name": "log-dissector",
   "description": "A toolkit for dissecting log files",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/adamvr/node-log-dissector.git"
   },
-  contributors:{"name" : "Jujhar Singh <jujhar@jujhar.com>", "url" :"http://jujhar.com"}
+  "contributors":{"name" : "Jujhar Singh <jujhar@jujhar.com>", "url" :"http://jujhar.com"},
+  "keywords" : ["log files", "parse log files", "amazon s3 logs", "ssh logs", "sudo logs"],
   "main": "index.js",
   "engines": {
     "node": "~0.6.5"
   },
+  "readmeFilename" : "README.md",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {}
