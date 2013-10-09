@@ -1,8 +1,8 @@
-# Dissector
+# Node Log Dissector
 
 [![NPM](https://nodei.co/npm/log-dissector.png)](https://nodei.co/npm/log-dissector/)
 
-A toolkit for dissecting information from logfiles.
+A toolkit for dissecting information from logfiles using nodejs.
 
 ## Example Usage
 
