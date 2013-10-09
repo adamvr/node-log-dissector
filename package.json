@@ -23,6 +23,10 @@
         "should": "~1.3.0",
         "mocha": "~1.13.0"
     },
+    "scripts": {
+        "test": "mocha"
+    },
+
     "optionalDependencies": {},
     "license": "BSD"
 }
