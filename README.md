@@ -20,6 +20,9 @@ stream.on('data', function(data) {
 });
 ```
 
+## Build Status
+[![Build Status](https://secure.travis-ci.org/LnL7/travis-mocha.png?branch=master)](http://travis-ci.org/LnL7/travis-mocha)
+
 
 ## Log Dissectors included
 - ssh invalid users
