@@ -1,8 +1,11 @@
-# Node Log Dissector
+# Dissector
 
 [![NPM](https://nodei.co/npm/log-dissector.png)](https://nodei.co/npm/log-dissector/)
 
-A toolkit for dissecting information from logfiles using nodejs.
+A toolkit for dissecting information from logfiles.
+
+## Build Status
+[![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
 
 ## Example Usage
 
@@ -20,9 +23,20 @@ stream.on('data', function(data) {
 });
 ```
 
-## Build Status
-[![Build Status](https://secure.travis-ci.org/LnL7/travis-mocha.png?branch=master)](http://travis-ci.org/LnL7/travis-mocha)
+**or**
 
+```javascript
+//preferred style
+var dissector = require('log-dissector').dissectors['s3'];
+
+var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readble', function() {
+    self.read(0);
+});
+
+stream.on('data', function(data) {
+    console.log(dissector.dissect(data));
+});
+```
 
 ## Log Dissectors included
 - ssh invalid users
@@ -39,3 +53,4 @@ stream.on('data', function(data) {
 ### 2013-10-09
 - Added level3 cdn access logs processor
 - Added tests for level3 processor using Mocha
+- Added travis build support
