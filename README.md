@@ -1,6 +1,6 @@
 # Dissector
 
-[![NPM](https://nodei.co/npm/request.png)](https://nodei.co/npm/log-dissector/)
+[![NPM](https://nodei.co/npm/log-dissector.png)](https://nodei.co/npm/log-dissector/)
 
 A toolkit for dissecting information from logfiles.
 
