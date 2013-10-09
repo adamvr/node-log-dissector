@@ -1,11 +1,9 @@
 /* 
- * to test models/ParseLogLine.js
+ * to test level3 cdn log parser
  * using the mocha test framework 
  * 2013-10-09
  * jujhars13
  */
-
-
 var _ = require('lodash');
 var dissector = require('../index').dissectors['level3-cdn'];
 
@@ -35,9 +33,9 @@ describe('Level3-cdn', function () {
                     verb: 'GET',
                     uri: '/butotv/live/1/6tYhhg1/6tYhhg1_frame_custom_0000.jpg',
                     protocol: 'HTTP/1.1',
-                    ip: '135.221.31.26',
-                    bytes: key,
-                    'http-status': '200',
+                    client_ip: '135.221.31.26',
+                    bytes_sent: key,
+                    'status_code': '200',
                     'user-agent': 'curl/7.32.0',
                     type: 'level3-cdn'
                 };

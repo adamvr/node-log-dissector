@@ -3,6 +3,7 @@
 [![NPM](https://nodei.co/npm/log-dissector.png)](https://nodei.co/npm/log-dissector/)
 
 A toolkit for dissecting/parsing information from logfiles using Node.js.
+If you add your own please shout them back if you think they'll be useful
 
 ## Build Status
 [![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
@@ -36,5 +37,8 @@ stream.on('data', function(data) {
 
 ### 2013-10-09
 - Added level3 cdn access logs processor
-- Added tests for level3 processor using Mocha
+- Added test for level3 parser using Mocha
 - Added travis build support
+- Improved s3 parsing
+- Added test for s3 parser
+- removed excess util ref
