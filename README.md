@@ -4,6 +4,9 @@
 
 A toolkit for dissecting information from logfiles.
 
+## Build Status
+[![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
+
 ## Example Usage
 
 ```javascript
@@ -20,9 +23,20 @@ stream.on('data', function(data) {
 });
 ```
 
-## Build Status
-[![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
+**or**
 
+```javascript
+//preferred style
+var dissector = require('log-dissector').dissectors['s3'];
+
+var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readble', function() {
+    self.read(0);
+});
+
+stream.on('data', function(data) {
+    console.log(dissector.dissect(data));
+});
+```
 
 ## Log Dissectors included
 - ssh invalid users
