@@ -21,7 +21,7 @@ stream.on('data', function(data) {
 ```
 
 ## Build Status
-[![Build Status](https://secure.travis-ci.org/LnL7/travis-mocha.png?branch=master)](http://travis-ci.org/LnL7/travis-mocha)
+[![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
 
 
 ## Log Dissectors included
