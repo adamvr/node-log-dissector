@@ -1,5 +1,7 @@
 # Dissector
 
+[![NPM](https://nodei.co/npm/request.png)](https://nodei.co/npm/log-dissector/)
+
 A toolkit for dissecting information from logfiles.
 
 ## Example Usage
@@ -24,3 +26,11 @@ A toolkit for dissecting information from logfiles.
 - sudo failure
 - sudo sucess
 - Amazon S3 access logs
+- Level3 CDN access logs
+
+
+## Changelog
+
+### 2013-10-09
+- Added level3 cdn access logs processor
+- Added tests for level3 processor using Mocha

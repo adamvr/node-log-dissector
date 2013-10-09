@@ -31,6 +31,6 @@ for (var i = 0; i < files.length; i++) {
   if (!module || !module.regex || !module.map || !module.type) continue;
   module.dissect = exec(module);
   dissectors[module['type']] = module;
-};
+}
 
 exports.dissectors = dissectors;
