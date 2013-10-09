@@ -1,8 +1,8 @@
-# Dissector
+# Node.js log Dissector
 
 [![NPM](https://nodei.co/npm/log-dissector.png)](https://nodei.co/npm/log-dissector/)
 
-A toolkit for dissecting information from logfiles.
+A toolkit for dissecting/parsing information from logfiles using Node.js.
 
 ## Build Status
 [![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
@@ -10,23 +10,7 @@ A toolkit for dissecting information from logfiles.
 ## Example Usage
 
 ```javascript
-var dissector = require('log-dissector').dissectors;
-
-var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readble', function() {
-    self.read(0);
-});
-
-var apache = dissector['s3'];
-
-stream.on('data', function(data) {
-    console.log(apache.dissect(data));
-});
-```
-
-**or**
-
-```javascript
-//preferred style
+//you don't have to specify the particular dissector here - but we do
 var dissector = require('log-dissector').dissectors['s3'];
 
 var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readble', function() {
