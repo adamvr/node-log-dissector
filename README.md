@@ -39,3 +39,4 @@ stream.on('data', function(data) {
 ### 2013-10-09
 - Added level3 cdn access logs processor
 - Added tests for level3 processor using Mocha
+- Added travis build support
