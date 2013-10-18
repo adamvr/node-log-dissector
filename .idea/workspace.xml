@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e2d3bd-503c-48a6-86c8-a189cf1836b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="node-log-dissector.iws" />
@@ -33,7 +31,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.4346591">
+            <state line="2" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.048295453">
               <folding />
             </state>
           </provider>
@@ -66,8 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -239,7 +237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.4346591">
+        <state line="2" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.048295453">
           <folding />
         </state>
       </provider>
