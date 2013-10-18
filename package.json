@@ -13,9 +13,6 @@
     },
     "keywords": ["log files", "parse log files", "parse logs", "amazon s3 logs", "ssh logs", "sudo logs", "level 3 cdn"],
     "main": "index.js",
-    "engines": {
-        "node": "~0.6.5"
-    },
     "readmeFilename": "README.md",
     "dependencies": {},
     "devDependencies": {

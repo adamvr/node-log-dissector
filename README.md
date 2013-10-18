@@ -1,6 +1,6 @@
 # Node.js log Dissector
 
-[![NPM](https://nodei.co/npm/node-log-dissector.png)](https://nodei.co/npm/node-log-dissector/)
+[![NPM](https://nodei.co/npm/node-log-dissector.png?downloads=true)](https://nodei.co/npm/node-log-dissector/)
 
 A toolkit for dissecting/parsing information from logfiles using Node.js.
 If you add your own please shout them back if you think they'll be useful.
