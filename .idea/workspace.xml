@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="56e2d3bd-503c-48a6-86c8-a189cf1836b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node-log-dissector.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="56e2d3bd-503c-48a6-86c8-a189cf1836b0" time="1382134100370" ignored="false" />
     <file path="/package.json" changelist="56e2d3bd-503c-48a6-86c8-a189cf1836b0" time="1382134200405" ignored="false" />
-    <file path="/README.md" changelist="56e2d3bd-503c-48a6-86c8-a189cf1836b0" time="1382134912262" ignored="false" />
+    <file path="/README.md" changelist="56e2d3bd-503c-48a6-86c8-a189cf1836b0" time="1382135029348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="77" selection-start="347" selection-end="347" vertical-scroll-proportion="0.13972603">
+            <state line="24" column="3" selection-start="906" selection-end="906" vertical-scroll-proportion="0.5589041">
               <folding />
             </state>
           </provider>
@@ -238,7 +237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="77" selection-start="347" selection-end="347" vertical-scroll-proportion="0.13972603">
+        <state line="24" column="3" selection-start="906" selection-end="906" vertical-scroll-proportion="0.5589041">
           <folding />
         </state>
       </provider>

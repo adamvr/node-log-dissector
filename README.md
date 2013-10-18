@@ -3,8 +3,9 @@
 [![NPM](https://nodei.co/npm/node-log-dissector.png)](https://nodei.co/npm/node-log-dissector/)
 
 A toolkit for dissecting/parsing information from logfiles using Node.js.
-If you add your own please shout them back if you think they'll be useful
-Originally crafted by <adamvr> git://github.com/adamvr/node-log-dissector.git
+If you add your own please shout them back if you think they'll be useful.
+
+Originally crafted by [adamvr](https://github.com/adamvr/node-log-dissector.git)
 
 ## Build Status
 [![Build Status](https://travis-ci.org/jujhars13/node-log-dissector.png?branch=master)](https://travis-ci.org/jujhars13/node-log-dissector)
@@ -37,7 +38,7 @@ stream.on('data', function(data) {
 ## Changelog
 ### 2013-10-18
 - Added license.md
-- Published independently of original author <adamvr> git://github.com/adamvr/node-log-dissector.git
+- Published independently of original project <adamvr> git://github.com/adamvr/node-log-dissector.git
 
 ### 2013-10-09
 - Added level3 cdn access logs processor
