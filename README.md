@@ -34,6 +34,9 @@ stream.on('data', function(data) {
 
 
 ## Changelog
+### 2013-10-18
+- Added license.md
+- Published independently of original author <adamvr> git://github.com/adamvr/node-log-dissector.git
 
 ### 2013-10-09
 - Added level3 cdn access logs processor
@@ -42,3 +45,4 @@ stream.on('data', function(data) {
 - Improved s3 parsing
 - Added test for s3 parser
 - removed excess util ref
+
