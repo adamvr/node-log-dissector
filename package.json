@@ -2,7 +2,7 @@
     "author": "Jujhar Singh <jujhar@jujhar.com>",
     "name": "node-log-dissector",
     "description": "A toolkit for dissecting and parsing log files",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "repository": {
         "type": "git",
         "url": "git://github.com/jujhars13/node-log-dissector"
