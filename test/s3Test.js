@@ -23,16 +23,9 @@ describe('s3', function () {
     describe('.dissect', function () {
 
         it('should return a suitable array for the extra log line text', function () {
-            var extra_log_line_test = {
-                199825: 'b76db5b6c51be22bbd71688bf652a29846f08d1bc0951494a42849e234c2f988 origin.buto.tv [20/Nov/2013:09:00:00 +0000] 4.26.231.155 - BAC4680ACF3162A8 REST.GET.OBJECT butotv/live/players/test_files/mediumtest.swf "GET /butotv/live/players/test_files/mediumtest.swf?94179.54538948834 HTTP/1.1" 200 - 199825 199825 17 12 "https://embed.buto.tv/vgS95" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36" -'
-            };
-
-            _(extra_log_line_test).forEach(function (line, key) {
-                var data = dissector.dissect(line);
-
-                (data).should.not.empty;
-            });
-
+            var line = 'b76db5b6c51be22bbd71688bf652a29846f08d1bc0951494a42849e234c2f988 origin.buto.tv [20/Nov/2013:09:00:00 +0000] 4.26.231.155 - BAC4680ACF3162A8 REST.GET.OBJECT butotv/live/players/test_files/mediumtest.swf "GET /butotv/live/players/test_files/mediumtest.swf?94179.54538948834 HTTP/1.1" 200 - 199825 199825 17 12 "https://embed.buto.tv/vgS95" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36" -';
+            var data = dissector.dissect(line);
+            (data).should.not.empty;
         });
 
         it('should return a suitable array for valid log lines', function () {
