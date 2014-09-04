@@ -47,5 +47,40 @@ describe('s3', function () {
 
             });
         });
+
+        it("should dissect all values from logs without failure", function () {
+            var testData = '04db613bd000d07badc32d16138efc3eba3e96c6c3ca19365997ba468a6ac850 test.repo.io [10/Apr/2013:18:27:38 +0000] 54.225.77.116 arn:aws:iam::581309990414:user/test-registry 4981BCEDE3870133 REST.PUT.OBJECT incompatible-version/incompatible-version-1.0.0.zip "PUT /test.repo.io/incompatible-version/incompatible-version-1.0.0.zip HTTP/1.1" 200 - - 504 89 32 "-" "aws-sdk-nodejs/v0.9.7-pre.8 linux/v0.8.22" -';
+
+            var data_should_be = {
+                owner: '04db613bd000d07badc32d16138efc3eba3e96c6c3ca19365997ba468a6ac850',
+                bucket: 'test.repo.io',
+                timestamp: '[10/Apr/2013:18:27:38 +0000]',
+                client_ip: '54.225.77.116',
+                requester: 'arn:aws:iam::581309990414:user/test-registry',
+                request_id: '4981BCEDE3870133',
+                operation: 'REST.PUT.OBJECT',
+                key: 'incompatible-version/incompatible-version-1.0.0.zip',
+                verb: 'PUT',
+                uri: '/test.repo.io/incompatible-version/incompatible-version-1.0.0.zip',
+                protocol: 'HTTP/1.1',
+                'status_code': '200',
+                'error_code': '-',
+                'bytes_sent': '-',
+                'object_size': '504',
+                'time_total': '89',
+                'time_turn_around': '32',
+                'referrer': '"-"',
+                'user-agent': 'aws-sdk-nodejs/v0.9.7-pre.8 linux/v0.8.22',
+                type: 's3'
+            };
+
+            //parse the record
+            var data = dissector.dissect(testData);
+
+            //iterate over our data array and compare values with what's returned
+            _(data_should_be).forEach(function (value, data_key) {
+                (value).should.equal(data[data_key]);
+            });
+        });
     });
 });
