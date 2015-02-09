@@ -6,3 +6,6 @@ Session.vim
 .netrwhist
 *~
 _temp/*
+
+#ignore node_modules
+node_modules/*
