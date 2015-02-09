@@ -32,6 +32,7 @@ stream.on('data', function(data) {
 - sudo failure
 - sudo sucess
 - Amazon S3 access logs
+- Amazon CloudFront access logs (v1.0)
 - Level3 CDN access logs
 
 ## Changelog
