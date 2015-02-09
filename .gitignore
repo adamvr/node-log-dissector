@@ -1,1 +1,11 @@
-.idea
+/.idea/*
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+_temp/*
+
+#ignore node_modules
+node_modules/*

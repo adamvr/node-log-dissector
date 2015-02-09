@@ -1,10 +1,11 @@
 var d = require('../').dissectors;
 var login = d['ssh-login']
-  , logout = d['ssh-logout']
-  , sudos = d['sudo-success']
-  , sudof = d['sudo-failure']
-  , baduser = d['ssh-invalid-user']
-  , s3 = d['s3'];
+    , logout = d['ssh-logout']
+    , sudos = d['sudo-success']
+    , sudof = d['sudo-failure']
+    , baduser = d['ssh-invalid-user']
+    , s3 = d['s3']
+    , s3 = d['cloudfront'];
 
 //console.dir(d);
 //

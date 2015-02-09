@@ -1,21 +1,18 @@
 {
-    "author": "Adam Rudd <adam.rudd@uqconnect.edu.au>",
-    "name": "log-dissector",
-    "description": "A toolkit for dissecting log files",
-    "version": "0.0.6",
+    "author": "Jujhar Singh <jujhar@jujhar.com>",
+    "name": "node-log-dissector",
+    "description": "A toolkit for dissecting and parsing log files",
+    "version": "0.2.3",
     "repository": {
         "type": "git",
-        "url": "git://github.com/adamvr/node-log-dissector.git"
+        "url": "git://github.com/jujhars13/node-log-dissector"
     },
     "contributors": {
-        "name": "Jujhar Singh <jujhar@jujhar.com>",
-        "url": "http://jujhar.com"
+        "name": "Adam Rudd <adam.rudd@uqconnect.edu.au>",
+        "url": "git://github.com/adamvr/node-log-dissector.git"
     },
-    "keywords": ["log files", "parse log files", "amazon s3 logs", "ssh logs", "sudo logs", "level 3 cdn logs"],
+    "keywords": ["log files", "parse log files", "parse logs", "amazon s3 logs", "ssh logs", "sudo logs", "level 3 cdn", "cloudfront log parse"],
     "main": "index.js",
-    "engines": {
-        "node": "~0.6.5"
-    },
     "readmeFilename": "README.md",
     "dependencies": {},
     "devDependencies": {
@@ -26,7 +23,6 @@
     "scripts": {
         "test": "mocha"
     },
-
     "optionalDependencies": {},
     "license": "BSD"
 }
