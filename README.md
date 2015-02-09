@@ -16,7 +16,7 @@ Originally crafted by [adamvr](https://github.com/adamvr/node-log-dissector.git)
 //you don't have to specify the particular dissector here - but we do
 var dissector = require('node-log-dissector').dissectors['s3'];
 
-var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readble', function() {
+var stream = fs.createReadStream('./my_s3.log', {flags: 'r', encoding: 'utf-8', autoClose: true}).on('readable', function() {
     self.read(0);
 });
 
