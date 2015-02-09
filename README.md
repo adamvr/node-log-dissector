@@ -48,3 +48,5 @@ stream.on('data', function(data) {
 - Added test for s3 parser
 - removed excess util ref
 
+### 2015-02-07
+- Added a cloudfront log parser
