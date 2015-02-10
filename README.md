@@ -50,11 +50,11 @@ stream.on('data', function(data) {
 
 ### 2015-02-07
 - Added a cloudfront v1.0 log parser
-- It's 2015 - Now using the docker to develop and test - it's the future (official Node v0.10.36 container):
+- It's 2015. Now using docker (ftw!) to develop and test (official Node v0.10.36 container):
 ```
     sudo docker run \
      -it --rm --name npm_test \ 
      -v $PWD:/app -w /app \ 
-     node:0.10.36 \
+     node:0.10.36 \         
      /bin/bash
 ```
