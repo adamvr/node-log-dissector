@@ -33,9 +33,13 @@ stream.on('data', function(data) {
 - sudo sucess
 - Amazon S3 access logs
 - Amazon CloudFront access logs (v1.0)
+- Amazon ElasticLoaderBalancer (ELB)
 - Level3 CDN access logs
 
 ## Changelog
+### 2016-09-19
+- Add disector to parse ElasticLoaderBalancer (ELB) of Amazon AWS
+
 ### 2013-10-18
 - Added license.md
 - Published independently of original project <adamvr> git://github.com/adamvr/node-log-dissector.git
