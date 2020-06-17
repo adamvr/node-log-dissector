@@ -5,7 +5,8 @@ var login = d['ssh-login']
     , sudof = d['sudo-failure']
     , baduser = d['ssh-invalid-user']
     , s3 = d['s3']
-    , s3 = d['cloudfront'];
+    , s3 = d['cloudfront']
+    , elasticloadbalancer = d['elasticloadbalancer'];
 
 //console.dir(d);
 //
@@ -15,3 +16,4 @@ var login = d['ssh-login']
 //console.dir(sudof.dissect('Feb 15 11:30:56 summer sudo: pam_unix(sudo:auth): authentication failure; logname=noone uid=0 euid=0 tty=/dev/pts/4 ruser= rhost=  user=noone'));
 //console.dir(baduser.dissect('Feb 13 10:51:35 summer sshd[27435]: Invalid user lolo from 1.1.1.1'));
 //console.dir(s3.dissect('89db1f87ef900402d4ec4678ec2d46ef9c503f28438eeaeb3a8409ee06106660 pluto-s3-cbn-origin [04/Jan/2013:11:41:11 +0000] 93.129.127.20 arn:aws:iam::433473615199:user/plbuto-s3sync 86E1F0C27251C5C6 REST.DELETE.OBJECT Bbgwg/1/2LVQj/2LVQj_500.flv "DELETE /BbgwGg/1/2LVQq/2LVQq_500.flv HTTP/1.1" 204 - - 10428478 12 - "-" "Transmit/680 neon/0.29.3" ~'));
+//console.dir(elasticloadbalancer.dissect('2015-05-13T23:39:43.945958Z my-loadbalancer 192.168.131.39:2817 10.0.0.1:80 0.000086 0.001048 0.001337 200 200 0 100 "GET https://www.example.com:443/ HTTP/1.1" "curl/7.38.0" DHE-RSA-AES128-SHA TLSv1.2'));
